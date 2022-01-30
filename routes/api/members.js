@@ -40,9 +40,8 @@ router.post("/", (req, res) => {
 
     // Add new object to data array
     members.push(newMember);
-
-    // Return all data when successful
     res.json(members);
+    //res.redirect("/");
 });
 
 // Update Member
